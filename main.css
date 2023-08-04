@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0; /**/
+    background-color: rgba(32, 112, 216, 0.726);
+    color: whitesmoke;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px; /*largura máx.*/
+    width: 100%; /*largura*/
+    margin: 0 auto ; /*centralizar, 0 topo, outro parem*/
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
