@@ -5,7 +5,7 @@
 }
 
 header {
-    padding: 16px 0; /**/
+    padding: 16px 0;
     background-color: rgba(32, 112, 216, 0.726);
     color: whitesmoke;
 }
@@ -22,13 +22,12 @@ header nav li a {
 }
 
 .container {
-    max-width: 1280px; /*largura máx.*/
-    width: 100%; /*largura*/
-    margin: 0 auto ; /*centralizar, 0 topo, outro parem*/
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto ;
 }
 
-header .container,
-section .container {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +37,7 @@ section .container {
     height: 24px;
 }
 
-/*.brands-list li {
+.brands-list li {
     display: inline;
 }
 
