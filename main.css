@@ -27,7 +27,8 @@ header nav li a {
     margin: 0 auto ;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +42,7 @@ header .container {
     display: inline;
 }
 
-section .container{
+section .container {
     align-items: flex-start;
 }
 
@@ -55,4 +56,8 @@ section h2 {
 
 section p {
     margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
 }
