@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header, 
+section h2 {
+    font-family: 'Bungee Spice', cursive;
+}
+
 header {
     padding: 16px 0;
     background-color: rgba(32, 112, 216, 0.726);
