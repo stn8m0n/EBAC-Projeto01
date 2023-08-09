@@ -17,16 +17,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre nós</a>
+                        <a href="#about">Sobre nós</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
             <div class="container">
                 <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja" />
                 <div>
@@ -52,11 +52,11 @@
             <div>
                 <h3>Fale conosco</h3>
                 <form>
-                    <input type="text" placeholder="Seu nome" />
-                    <input type="email" placeholder="Seu email" />
+                    <input type="text" placeholder="Seu nome" required />
+                    <input type="email" placeholder="Seu email" required />
                     <input type="tel" placeholder="Seu telefone (Opcional)" />
-                    <textarea placeholder="Sua Mensagem"></textarea>
-                    <button type="submit">Enviar</button><!-- Parei aqui/ Aula 4- Form 03:10-->
+                    <textarea placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
                 </form>
             </div>
             <div>
@@ -88,5 +88,12 @@
         </div>
     </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
